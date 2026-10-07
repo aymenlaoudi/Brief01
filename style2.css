@@ -1,0 +1,53 @@
+h1{
+  text-align: center;
+}
+#title{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FF6B2C;
+    border-radius: 40px;
+
+}
+.content{
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+
+#message{
+    width: 350px;
+    height: 100px;
+    margin-top: 12px;
+    resize: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+#email{
+    width: 350px;
+    height: 20px;
+    padding: 12px;
+    margin: 6px;
+    border-radius: 10px;
+    text-align: center;
+}
+#name{
+    width: 350px;
+    height: 20px;
+    padding: 12px;
+    margin: 6px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+fieldset{
+    margin: 0 auto;
+    width: 600px;
+    height: 450px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-top: 20px;
+}
