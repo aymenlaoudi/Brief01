@@ -8,13 +8,27 @@ h1{
     padding-right: 20px;
     background-color: #FF6B2C;
     border-radius: 40px;
-
 }
 .content{
     text-align: center;
 }
-.content{
+#name{
+    width: 350px;
+    height: 20px;
+    padding: 12px;
+    margin: 6px;
+    border-radius: 10px;
     text-align: center;
+    margin: 10px;
+}
+#email{
+    width: 350px;
+    height: 20px;
+    padding: 12px;
+    margin: 6px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
 }
 
 #message{
@@ -26,29 +40,26 @@ h1{
     text-align: center;
     font-size: 15px;
 }
-#email{
-    width: 350px;
-    height: 20px;
-    padding: 12px;
-    margin: 6px;
-    border-radius: 10px;
-    text-align: center;
-}
-#name{
-    width: 350px;
-    height: 20px;
-    padding: 12px;
-    margin: 6px;
-    border-radius: 10px;
-    text-align: center;
-
-}
 fieldset{
     margin: 0 auto;
-    width: 600px;
-    height: 450px;
-    background-color: white;
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
     border-radius: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 2px solid;
+    border-color: #FF6B2C;
+    padding: 20px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    display: block;
+    margin: 20px auto 0;
+    background-color: #FF6B2C;
+    border-radius: 20px;
+}
+.title_input{
+    font-weight: bold;
 }
