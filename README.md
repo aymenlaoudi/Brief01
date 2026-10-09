@@ -13,7 +13,7 @@ Le menu est le même sur toutes les pages et la page en cours est mise en couleu
 
 ## Lien du site
 
-- **Site en ligne (GitHub Pages)** : https://aymenlaoudi.github.io/
+- **Site en ligne (GitHub Pages)** : https://aymenlaoudi.github.io/Brief01/index.html
 - **Dépôt GitHub** : https://github.com/aymenlaoudi/Brief01
 
 ---
