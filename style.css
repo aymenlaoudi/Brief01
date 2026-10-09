@@ -13,8 +13,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #1F2937;
-  /* background-color:rgba(255, 196, 174, 0.726); */
-  background-color: white;
 }
 
 h1, h2, h3, h4 {
@@ -545,4 +543,256 @@ button:focus-visible {
   margin-top: 24px;
   font-size: 13px;
   color: #94A3B8;
+}
+
+@media (max-width: 676px) {
+  .conteneur {
+    padding-inline: 16px;
+  }
+
+  .section {
+    padding-block: 40px;
+  }
+
+  .section-titre {
+    margin-bottom: 32px;
+  }
+
+  .section-titre h2,
+  .apropos-texte h2 {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+
+  .section-titre h3 {
+    font-size: 19px;
+  }
+
+  .sur-titre {
+    font-size: 11px;
+  }
+
+  .bouton {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  .cartes {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .en-tete-contenu {
+    min-height: 64px;
+    height: auto;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding-block: 12px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .menu {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .menu a {
+    font-size: 13px;
+  }
+
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero-contenu {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+  }
+
+  .hero-texte h1 {
+    font-size: clamp(26px, 7vw, 36px);
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  .hero-description {
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+
+  .boutons {
+    gap: 10px;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    aspect-ratio: 4 / 3;
+  }
+
+  .chiffres {
+    flex-wrap: wrap;
+    gap: 16px 0;
+    margin-top: 32px;
+    padding: 16px 8px;
+  }
+
+  .chiffre {
+    flex: 1 1 50%;
+    font-size: 12px;
+  }
+
+  .chiffre + .chiffre {
+    border-left: 0;
+  }
+
+  .chiffre-nombre {
+    font-size: 25px;
+  }
+
+  .carte-avantage {
+    padding: 20px;
+  }
+
+  .carte-avantage h3 {
+    font-size: 18px;
+  }
+
+  .apropos-contenu {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+  }
+
+  .apropos-texte h2 {
+    margin-bottom: 16px;
+  }
+
+  .apropos-texte p {
+    font-size: 15px;
+  }
+
+  .valeurs {
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  .valeur {
+    flex: 1 1 100%;
+    padding: 12px;
+    font-size: 13px;
+  }
+
+  .apropos-image {
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    margin-top: 0;
+    aspect-ratio: 4 / 3;
+  }
+
+  .carte-programme > img {
+    height: 180px;
+  }
+
+  .programme-corps {
+    padding: 16px;
+  }
+
+  .programme-corps h3 {
+    font-size: 18px;
+  }
+
+  .programme-corps p {
+    font-size: 14px;
+  }
+
+  .etiquette {
+    font-size: 11px;
+  }
+
+  .programme-corps .duree {
+    font-size: 12px;
+  }
+
+  .formules {
+    margin-top: 48px;
+  }
+
+  .formule {
+    padding: 24px;
+  }
+
+  .formule h4 {
+    font-size: 18px;
+  }
+
+  .prix {
+    font-size: 26px;
+  }
+
+  .prix span {
+    font-size: 14px;
+  }
+
+  .prix-note {
+    font-size: 12px;
+  }
+
+  .formule-liste li {
+    padding-left: 24px;
+    font-size: 13px;
+    background-size: 16px;
+  }
+
+  .badge-populaire {
+    font-size: 10px;
+  }
+
+  .pied-de-page {
+    padding: 32px 0 24px;
+    margin-top: 0;
+  }
+
+  .pied-haut,
+  .pied-bas {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .pied-haut {
+    padding-bottom: 24px;
+  }
+
+  .menu-pied {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .menu-pied a {
+    font-size: 12px;
+  }
+
+  .slogan {
+    font-size: 12px;
+  }
+
+  .pied-bas {
+    margin-top: 20px;
+    font-size: 11px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
